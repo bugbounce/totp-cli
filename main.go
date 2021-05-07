@@ -15,6 +15,7 @@ func registerCommands(registry *commander.CommandRegistry) {
 	registry.Register(command.NewList)
 	registry.Register(command.NewUpdate)
 	registry.Register(command.NewVersion)
+	registry.Register(command.NewSearchList)
 }
 
 func main() {
