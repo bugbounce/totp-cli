@@ -1,4 +1,4 @@
-module github.com/yitsushi/totp-cli
+module github.com/bugbounce/totp-cli
 
 go 1.16
 

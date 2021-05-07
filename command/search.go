@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/bugbounce/totp-cli/security"
+	s "github.com/bugbounce/totp-cli/storage"
 	"github.com/yitsushi/go-commander"
-	"github.com/yitsushi/totp-cli/security"
-	s "github.com/yitsushi/totp-cli/storage"
 )
 
 // List structure is the representation of the list command.

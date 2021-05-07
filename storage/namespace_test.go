@@ -3,8 +3,8 @@ package storage_test
 import (
 	"testing"
 
+	"github.com/bugbounce/totp-cli/storage"
 	"github.com/stretchr/testify/assert"
-	"github.com/yitsushi/totp-cli/storage"
 )
 
 func TestFindAccount(t *testing.T) {

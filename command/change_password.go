@@ -1,9 +1,9 @@
 package command
 
 import (
+	s "github.com/bugbounce/totp-cli/storage"
+	"github.com/bugbounce/totp-cli/util"
 	"github.com/yitsushi/go-commander"
-	s "github.com/yitsushi/totp-cli/storage"
-	"github.com/yitsushi/totp-cli/util"
 )
 
 const (

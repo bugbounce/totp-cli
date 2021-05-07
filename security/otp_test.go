@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bugbounce/totp-cli/security"
 	"github.com/stretchr/testify/assert"
-	"github.com/yitsushi/totp-cli/security"
 )
 
 func TestTOTP(t *testing.T) {

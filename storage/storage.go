@@ -15,7 +15,7 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/yitsushi/totp-cli/util"
+	"github.com/bugbounce/totp-cli/util"
 )
 
 // Storage structure represents the credential storage

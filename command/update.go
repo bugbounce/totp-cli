@@ -15,8 +15,8 @@ import (
 	grc "github.com/yitsushi/github-release-check"
 	"github.com/yitsushi/go-commander"
 
-	"github.com/yitsushi/totp-cli/info"
-	"github.com/yitsushi/totp-cli/util"
+	"github.com/bugbounce/totp-cli/info"
+	"github.com/bugbounce/totp-cli/util"
 )
 
 // Update structure is the representation of the update command.

@@ -3,9 +3,9 @@ package command
 import (
 	"fmt"
 
+	s "github.com/bugbounce/totp-cli/storage"
+	"github.com/bugbounce/totp-cli/util"
 	"github.com/yitsushi/go-commander"
-	s "github.com/yitsushi/totp-cli/storage"
-	"github.com/yitsushi/totp-cli/util"
 )
 
 // AddToken structure is the representation of the add-token command.

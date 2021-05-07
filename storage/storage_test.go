@@ -3,8 +3,8 @@ package storage_test
 import (
 	"testing"
 
+	s "github.com/bugbounce/totp-cli/storage"
 	"github.com/stretchr/testify/assert"
-	s "github.com/yitsushi/totp-cli/storage"
 )
 
 func TestFindNamespace(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yitsushi/totp-cli/util"
+	"github.com/bugbounce/totp-cli/util"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/bugbounce/totp-cli/util"
 	"github.com/stretchr/testify/assert"
-	"github.com/yitsushi/totp-cli/util"
 )
 
 type PasswordPair struct {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/bugbounce/totp-cli/security"
 	"github.com/yitsushi/go-commander"
-	"github.com/yitsushi/totp-cli/security"
 )
 
 // Instant structure is the representation of the instant command.
